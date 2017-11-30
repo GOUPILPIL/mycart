@@ -2,6 +2,7 @@
 
 require __DIR__.'/models/Product.php';
 
+session_start();
 $todo = null;
 
 if (isset($_GET['id'])) {
