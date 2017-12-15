@@ -49,8 +49,6 @@ $test = $data->baskettobdd();
 $mdr = $data->bddtobasket($test);
 echo '<br> <br>';
 var_dump($mdr);
-//echo $test;
-// + 1 / 1, + 2 / 1, - 1 / -1, +1 / +1, -1 /-1, +1 / +1 bug / 1
 //$data->destroy();
 
 require __DIR__.'/views/products/browse.php';
